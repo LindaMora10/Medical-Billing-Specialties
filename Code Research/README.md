@@ -5,7 +5,10 @@ Per-code payer research memos. One file per code, named
 
 | File | Code | Question | Date |
 |---|---|---|---|
-| `CPT_64772_Payer_Research_2026-09-15.md` | 64772 | Code validation (vs 64633–64636 / 64625) + AZ payer coverage, PA, POS, NCCI, dx, modifiers | 15 Sep 2026 |
+| `CPT_64772_Billing_Playbook_2026-09-15.md` | 64772 | **Operational — how the billing department bills it.** Op-note requirements, dx, claim construction, modifiers, POS, AZ allowables, denial playbook, go-live checklist | 15 Sep 2026 |
+| `CPT_64772_Payer_Research_2026-09-15.md` | 64772 | **Reference — the underlying research.** Code validation (vs 64633–64636 / 64625) + AZ payer coverage, PA, POS, NCCI, dx, modifiers, with full citations | 15 Sep 2026 |
+
+Where a code has both, the **playbook is the working document** and the research memo is what it cites.
 
 ## What each memo covers
 

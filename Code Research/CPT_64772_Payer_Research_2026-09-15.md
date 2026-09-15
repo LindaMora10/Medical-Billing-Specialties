@@ -6,10 +6,24 @@ Deanna and Bri, auth & scheduling meeting next week.
 **Jurisdiction priority:** Arizona — Medicare Part B is **Noridian Healthcare Solutions, Jurisdiction F**
 (contract 03101 Part A / 03102 Part B).
 
-> **Headline: do not build a program on 64772 for medial branch rhizotomy.**
-> 64772 is an **open** transection/avulsion code with a **90-day global**, no **office** payment, and
-> **no published medical-necessity criteria at any payer reviewed**. Percutaneous medial branch
-> radiofrequency neurotomy is **64633–64636**. See [Part 1](#part-1--code-validation).
+> **Status: 15 Sep 2026 — updated.** Dr. Luke has confirmed he is performing **64772**. This memo is the
+> **reference research**; the operational instructions for billing it are in the companion
+> **[CPT 64772 Billing Playbook](CPT_64772_Billing_Playbook_2026-09-15.md)**.
+>
+> **What the billing department needs to carry from this document:** 64772 is an **open**
+> transection/avulsion code, **payable only in a facility** (ASC or HOPD — never the office on Medicare),
+> with a **90-day global**, **MUE 6 / MAI 3**, a **bilateral indicator of `0`** (modifier 50 earns no
+> premium), and **hard NCCI bundles against facet blocks and all ESI codes**. **No payer reviewed
+> publishes medical-necessity criteria for it**, so every claim is decided on the operative report.
+>
+> **Correction (see [§2.1](#21-traditional-medicare--noridian-jurisdiction-f-arizona)): 64772 is NOT in
+> WISeR scope.** An earlier version of this memo flagged possible WISeR exposure because NCD 160.1 is an
+> in-scope policy. The WISeR Operational Guide's Appendix A has since been located: the NCD 160.1 code set
+> is **64605 and 64610 only**. That blocker is cleared.
+>
+> [Part 1](#part-1--code-validation) records the code-validation analysis that was requested before
+> coverage research. It is retained as the documentation standard 64772 has to meet — **§1.5 is the
+> operative-note checklist** — not as an argument against using the code.
 
 ---
 
@@ -123,27 +137,47 @@ Anything less and the claim is, on its face, a miscoded facet procedure:
 | **NCD text** | Covers lesions "produced by **surgical cutting of the nerve (rhizolysis)**, chemical destruction of the nerve, or by creation of a radio-frequency lesion," for "chronic or acute pain arising from conditions such as terminal cancer or lumbar degenerative arthritis." Payment "may be made for these denervation procedures **when used in selected cases (concurred in by the Medicare Administrative Contractor's medical staff)** to treat chronic pain." |
 | **Medical necessity criteria** | **None published at code level.** NCD 160.1 has no criteria list, no frequency limit, no conservative-care prerequisite and **no covered-diagnosis table**. It delegates to MAC medical staff. Practical effect: **every 64772 claim is a medical-review claim**, and there is no published standard to appeal against. |
 
-**Prior authorization — and the Arizona-specific trap**
+**Prior authorization — no requirement, and WISeR does not reach 64772 (resolved)**
 
-There is **no standing Medicare prior-auth requirement** for 64772. But Arizona is one of six states in the
-**WISeR Model** (Wasteful and Inappropriate Service Reduction), live **1 January 2026**:
+There is **no standing Medicare prior-auth requirement** for 64772, and **no WISeR requirement either.**
 
-- **NCD 160.1 — "Induced Lesions of Nerve Tracts" — is an in-scope WISeR service.** That is the very NCD
-  that governs 64772.
-- **Arizona's WISeR participant is Zyter Inc.** (Washington's is Virtix Health LLC).
-  [CMS WISeR provider fact sheet](https://www.cms.gov/priorities/innovation/files/wiser-provider-fact-sheet.pdf)
-  → *Selected companies* table.
-- Prior authorization is **voluntary**. If you skip it, the claim goes to **pre-payment medical review**
-  (target 3 days), and "associated services may be denied if the primary service is denied."
-- An approved authorization is **valid 120 days** from the decision date.
-- Also in scope for AZ: **Epidural Steroid Injections, LCD L39240**. **Facet codes 64633–64636 are NOT in
-  the WISeR service list.**
-- [Noridian JF Part B WISeR page](https://med.noridianmedicare.com/web/jfb/cert-reviews/pre-claim/wiser-model).
+Arizona is one of six states in the **WISeR Model** (Wasteful and Inappropriate Service Reduction),
+effective **1 January 2026**, implementation from **5 January 2026**, running six years through
+**31 December 2031**. **NCD 160.1 "Induced Lesions of Nerve Tracts" is an in-scope WISeR policy** — which
+is why this needed checking, since NCD 160.1 is the policy that governs 64772.
 
-> ⚠️ **Unverified gap.** CMS's fact sheet lists WISeR scope by NCD/LCD name and says the CPT/HCPCS codes
-> live in an appendix I could not locate published. **I could not confirm whether 64772 specifically sits
-> in the NCD 160.1 code set for WISeR.** Deanna/Bri should confirm with Zyter and Noridian before the first
-> case is booked — if it is in scope, every 64772 claim without a voluntary auth lands in pre-payment review.
+**It does not capture 64772.** The **WISeR Model Provider and Supplier Operational Guide, Appendix A,
+Table A2 "Induced Lesions of Nerve Tracts (NCD 160.1)"** lists exactly two codes:
+
+| Code | Description |
+|---|---|
+| **64605** | Destruction by neurolytic agent, trigeminal nerve; second and third division branches at foramen ovale |
+| **64610** | Destruction by neurolytic agent, trigeminal nerve; second and third division branches at foramen ovale under radiologic monitoring |
+
+The guide states plainly at §6.2.2: **"For this NCD, WISeR will initially focus on neurolytic destruction
+of the trigeminal nerve."** Appendix C Table C2 (associated/ancillary codes drawn into review) lists
+61790, 64605, 64610, 70450, 76000, 77002, 00222, 01991 — **64772 appears in neither table.**
+
+Source: [CMS WISeR Model Provider and Supplier Operational Guide](https://www.cms.gov/priorities/innovation/files/wiser-provider-supplier-guide.pdf)
+→ *§6.2.2 Induced Lesions of Nerve Tracts*; *Appendix A, Table A2*; *Appendix C, Table C2*.
+Noridian confirms "**Only certain CPT codes, from certain policies, are included in the WISeR model**"
+([WISeR Common Questions and Answers, JF Part B](https://med.noridianmedicare.com/web/jfb/cert-reviews/pre-claim/wiser-model/wiser-common-questions-and-answers)).
+
+Also in scope for Arizona but **not reaching 64772**: Epidural Steroid Injections (LCD L39240),
+Percutaneous Vertebral Augmentation (L34228), Cervical Fusion (L39758), arthroscopic knee lavage/
+debridement (NCD 150.9, code 29877), VNS, phrenic and sacral nerve stimulation, HGNS. **Facet codes
+64633–64636 are not in the WISeR service list either.**
+
+**Verification step for the billing department:** Noridian has loaded the WISeR CPT/HCPCS codes into its
+**Prior Authorization Lookup Tool**. Run 64772 through it once to capture a dated screenshot for the file —
+that is the cleanest evidence that no PA applies.
+[Noridian JF Part B Prior Authorization](https://med.noridianmedicare.com/web/jfb/cert-reviews/pre-claim) ·
+[WISeR page](https://med.noridianmedicare.com/web/jfb/cert-reviews/pre-claim/wiser-model).
+
+*(Arizona's WISeR solution participant is **Zyter Inc.**; Washington's is Virtix Health LLC. Where WISeR
+does apply, PA is voluntary, an approval is valid 120 days, and skipping it routes the claim to
+pre-payment review where "associated services may be denied if the primary service is denied." None of
+that attaches to 64772.)*
 
 **Place of service — 64772 is facility-only**
 
@@ -402,7 +436,7 @@ Optum appears in Arizona in three distinct roles, and they are easy to confuse:
 
 | | Covered? | Prior auth | Vendor | Approved POS | Criteria published for 64772? |
 |---|---|---|---|---|---|
-| **Medicare — Noridian JF** | In principle (NCD 160.1), case-by-case | None standing; **WISeR voluntary**, else pre-payment review | **Zyter Inc.** (AZ) | **ASC + HOPD only** — office not payable | **No** |
+| **Medicare — Noridian JF** | In principle (NCD 160.1), case-by-case | **None. Not required.** WISeR does not reach 64772 (Appendix A Table A2 = 64605/64610 only) | n/a | **ASC + HOPD only** — office not payable | **No** |
 | **AZ Blue — Commercial** | Unlisted | **No eviCore precert** for facet codes; 64772 not on any list | eviCore (MA only) | Not published for 64772 | **No** |
 | **AZ Blue — Med Advantage** | Unlisted | Facet codes **Y**; 64772 → AZ Blue internal UM | eviCore / OHNAZ / AZPC | Not published for 64772 | **No** |
 | **Humana — MA & DSNP** | Unlisted | **Not required** (64772 absent from list); facet codes + 64999 **required** | **Cohere Health** | ASC/office/CAH may be exempt — verify per member | **No** |
@@ -684,9 +718,9 @@ For Deanna and Bri to raise in next week's meeting, highest impact first.
 12. ⚠️ **UHC calls endoscopic rhizotomy "unproven and not medically necessary"** (2026T0107II), and
     eviCore CMM-208 says the same for the AZ Blue MA book. **If the technique is endoscopic, two of five
     payers deny it by written policy.** UHC also calls **SI joint ablation (64625) unproven** commercially.
-13. ⚠️ **WISeR / Zyter pre-payment review exposure.** NCD 160.1 is in scope in Arizona. Without a
-    voluntary auth, claims route to pre-payment review and "associated services may be denied if the
-    primary service is denied" — meaning the **facility and anaesthesia claims travel with it.**
+13. ✅ **WISeR — cleared, no longer a risk.** Resolved 15 Sep 2026: the NCD 160.1 WISeR code set is
+    **64605 and 64610 only** (trigeminal). 64772 is not in scope, so there is no voluntary-auth decision
+    to make and no pre-payment review routing. Capture a dated Noridian PA Lookup screenshot for the file.
 14. ⚠️ **AZ Blue commercial offers no pre-service approval** for these codes (eviCore precert `N`,
     MA only). There is no way to de-risk before the case; exposure is entirely post-service.
 15. ⚠️ **UHC MA HMO/HMO-POS members delegated to Optum need a PCP referral before the specialist visit**,
@@ -698,9 +732,9 @@ For Deanna and Bri to raise in next week's meeting, highest impact first.
 
 | # | Question | Who to ask |
 |---|---|---|
-| 17 | Is **64772** in the WISeR **NCD 160.1** code set for Arizona? The CPT-level appendix is not published. | **Zyter Inc.** and Noridian JF Provider Contact Center |
-| 18 | Does **AZ Blue** require prior auth for 64772, and is there a medical policy? (Policy search is JS-only; PA code list blocked from this environment.) | [AZ Blue PA lookup](https://www.azblue.com/prior-authorization-lookup/providers) · `UtilMgmt@azblue.com` · 602-864-4320 |
-| 19 | **Optum's Arizona PA code lists** — `optum.com` and `business.optum.com` are blocked from this environment; `events.optumcare.com` does not resolve. **No verified answer on Optum PA for 64772.** | Optum provider rep · Optum Pro portal `optumproportal.com` · 877-370-2845 · `lcd_um@optum.com` |
+| ~~17~~ | ~~Is **64772** in the WISeR **NCD 160.1** code set for Arizona?~~ **CLOSED 15 Sep 2026 — No.** Operational Guide Appendix A Table A2 = 64605 and 64610 only. | — |
+| 18 | Does **AZ Blue** require prior auth for 64772, and is there a medical policy for it? **Hard block — not retrievable here.** Their policy search is a JavaScript app that returns no server-rendered results; the PA code list (`edge.sitecorecloud.io`) and `provider.azblue.com` are both blocked by this environment's egress policy. Three access paths attempted, all failed. | [AZ Blue PA lookup](https://www.azblue.com/prior-authorization-lookup/providers) · `UtilMgmt@azblue.com` · **602-864-4320** · provider services **1-800-322-8670** |
+| 19 | **Optum's Arizona PA code lists** — **hard block.** `www.optum.com` and `business.optum.com` are blocked by egress policy; `events.optumcare.com` does not resolve. Two further attempts after the first also failed. **No verified answer on Optum PA for 64772.** | Optum provider rep · Optum Pro portal `optumproportal.com` · **877-370-2845** (TTY 711) · `lcd_um@optum.com` |
 | 20 | Each **delegated IPA's own protocol** — per UHC, "you must follow the delegate's protocols." | Each delegated group directly |
 | 21 | **Humana** coverage policy for 64772, and whether the **commercial** book differs from MA/DSNP. Does Dr. Luke qualify for the 2026 **Gold Card**? | Humana provider rep · Cohere 833-283-0033 |
 | 22 | **AHCCCS AMPM** coverage position on 64772 (fee-schedule presence is not coverage), plus Health Choice PA. | AHCCCS · `FFSRates@azahcccs.gov` |
