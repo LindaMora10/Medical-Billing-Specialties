@@ -35,6 +35,11 @@ Work top to bottom. Stop at the first match.
 🔴 **Step 1 outranks everything.** A delegated member's card can carry UnitedHealthcare or Blue Cross
 branding while every authorization decision is made by Optum. `LIFE1` is the tell.
 
+> 🔴 **No auth = no payment, and you cannot bill the member.** AZ Blue's own code-list workbook
+> (updated 09/01/2026): *"For dates of service on and after July 1, 2026, when a required prior auth is
+> not obtained, the claim (or claim line) for that service will not be reimbursed. AZ Blue network
+> providers may not bill the member for the service."* A missed AZPC authorization is a total write-off.
+
 > 🔴 **On `M2K`, identify the vendor before trusting the AZ Blue lookup tool.** The tool is **not
 > delegation-aware**, and says so in its own result note: *"IMPORTANT! This response is valid only for
 > Medicare Advantage plans administered by AZ Blue. Check the back of the ID card for the plan's prior
@@ -76,8 +81,9 @@ Source: [AZ Blue Prior Authorization & Medical Policies](https://www.azblue.com/
 | **`MZHHC`** | **D-SNP** (Medicare + Medicaid) | Health Choice Pathway Medicare Advantage | *(confirm)* |
 | **`HCI`** + AHCCCS ID | **AHCCCS Medicaid** | Health Choice "Acute" Medicaid | `62179` |
 
-*(`HCI` appears as `HCIA` in our system. AZ Blue's provider hub publishes only `IAZ`; the other two
-come from the billing department's own filings.)*
+**✅ Now payer-published.** AZ Blue's code-list workbook (updated 09/01/2026) states in its EXCEPTIONS
+section: *"Prefixes **IAZ, HCI, and MZH**: The Health Choice team handles utilization management for
+these plans (800-322-8670)."* `HCI` appears as `HCIA` in our system and `MZH` as `MZHHC`.
 
 | | **ACA StandardHealth** | **Health Choice Arizona** | **Health Choice Pathway** |
 |---|---|---|---|
