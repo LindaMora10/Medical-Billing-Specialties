@@ -22,7 +22,7 @@ Work top to bottom. Stop at the first match.
 |---|---|---|---|
 | 1 | **Payer ID on the card / in the clearinghouse** | **`LIFE1`** | **Optum Medical Network AZ** (§3) — *not* the health plan, even though the card says UnitedHealthcare or Blue Cross |
 | 2 | **AZ Blue alpha prefix** (first 3 chars of member ID) | `M2K` | AZ Blue **Medicare Advantage** (§2.5) |
-| 3 | | `IAZ` | AZ Blue **ACA / Health Choice Network** (§2.2) |
+| 3 | | **`HCIA`** or `IAZ` | AZ Blue **Health Choice family** (§2.2) — then split by payer ID: `RP105` = ACA StandardHealth · `62179` = Health Choice Arizona Medicaid |
 | 4 | | `R` | **FEP** (§2.4) |
 | 5 | | `XBS` | **Medicare Supplement** (§2.9) |
 | 6 | | `AOZ` `AZI` `AZK` `IVR` | **Strategic Hub** — another Blue plan administers (§2.6) |
@@ -32,6 +32,12 @@ Work top to bottom. Stop at the first match.
 
 🔴 **Step 1 outranks everything.** A delegated member's card can carry UnitedHealthcare or Blue Cross
 branding while every authorization decision is made by Optum. `LIFE1` is the tell.
+
+> 🔴 **Why misrouting is now expensive.** Per `Carrier_Timely_Filing_Reference.xlsx`, **AZ Blue's initial
+> filing limit dropped from 365 days to 90 days for dates of service on or after 1 January 2026.** Time
+> spent bouncing between the wrong entity and the right one used to be absorbed by a year-long window;
+> it no longer is. Health Choice lines run on **6–7 month** windows (12 months non-contracted on the ACA
+> line), and **Optum is 90 days.** Route right the first time.
 
 ---
 
@@ -52,14 +58,43 @@ Source: [AZ Blue Prior Authorization & Medical Policies](https://www.azblue.com/
 | **UM contact** | `UtilMgmt@azblue.com` · **602-864-4320** (24/7 clinical) · provider services **1-800-322-8670** |
 | ⚠️ **For 64772 / pain** | **eviCore's MSK–Interventional Pain program does NOT apply to commercial members** — Medicare Advantage only. So there is **no eviCore precert pathway** here, and no pre-service approval to obtain. Confirm whether AZ Blue's own UM requires PA. |
 
-### 2.2 ACA / Health Choice Network Plans
-| | |
-|---|---|
-| **Prefix** | **`IAZ`** |
-| **Auth vendor** | Health Choice team |
-| **Submit via** | [Health Choice provider portal](https://providerportal.healthchoiceaz.com/Account/Login) |
-| **PA guidelines** | [ACA Health Choice PA guidelines](https://www.azblue.com/aca-health-choice/providers/pa-guidelines) |
-| **Coverage criteria** | [Clinical guidelines](https://www.azblue.com/medicaid/providers/clinical-guidelines) |
+### 2.2 Health Choice family — three separate lines of business
+
+**Prefixes: `HCIA` and `IAZ`.**
+
+> ⚠️ **On `HCIA`:** added at the practice's direction — this is what we see on cards and in our AR. I could
+> **not** confirm it from a published AZ Blue source: six AZ Blue / Health Choice pages were checked (the
+> provider PA-and-policies hub, both ACA PA-guidelines pages, the Medicaid PA page, and both claims pages)
+> and none of them publishes a prefix list. AZ Blue's provider hub names only **`IAZ`** for the ACA
+> Health Choice Network line. **Treat both as in use**, and see §7 for the ask that gets the full,
+> authoritative prefix list in writing.
+
+🔴 **Do not route on the prefix alone here — "Health Choice" is three different plans.** The **payer ID**
+is the reliable discriminator:
+
+| | **ACA StandardHealth with Health Choice** | **Health Choice Arizona** | **Health Choice Pathway** |
+|---|---|---|---|
+| **Line of business** | ACA / marketplace | **AHCCCS Medicaid** | **D-SNP** (Medicare + Medicaid) |
+| **Payer ID** | **`RP105`** | **`62179`** | *(confirm — see §7)* |
+| **Also known as** | "Standard Health" on forms | — | Health Choice Generations |
+| **PA phone** | **1-800-322-8670** (Maricopa 480-968-6866) | **1-800-322-8670** | **1-800-656-8991** |
+| **PA fax** | **602-864-5308** · BH out-of-home **480-760-4732** | **1-877-422-8120** · referrals 1-855-432-2494 · Rx 877-422-8130 | **1-877-424-5680** · Rx **1-877-424-5690** |
+| **Portal** | [providerportal.healthchoiceaz.com](https://providerportal.healthchoiceaz.com/Account/Login) | same | secure provider portal |
+| **PA grid** | Standard Health PA Grid, eff. **5/1/2026** | PA Grid, eff. **5/1/2026** | PA Grid, eff. **5/1/2026** |
+| **Coverage criteria** | [Clinical guidelines](https://www.azblue.com/medicaid/providers/clinical-guidelines) · **eviCore** for radiology / cardiac imaging | [Clinical guidelines](https://www.azblue.com/health-choice-az/providers/clinical-guidelines) · AHCCCS AMPM | **InterQual · UpToDate · NCDs/LCDs · NCCN** |
+| **Timely filing** | 6 mo contracted / **12 mo non-contracted** | 6 mo (7 mo if HCP primary) | 6 months |
+| **Claims address** | ACA StandardHealth with Health Choice, PO Box 52033, Phoenix AZ 85072-2033 | BCBSAZ Health Choice, PO Box 52033, Phoenix AZ 85072-2033 | — |
+
+**Clearinghouse for all three:** Availity (800-282-4548). Dental PA by email: `HCHDentalDeptHCA@azblue.com`.
+
+**Notes that matter for 64772:**
+- **Pathway is a D-SNP** — it applies **NCDs and LCDs**, so the Medicare analysis governs: **NCD 160.1**,
+  no published criteria, decided on the operative report.
+- **eviCore on the ACA line covers radiology and cardiac imaging only** — not MSK or interventional pain.
+  So there is no eviCore pathway for 64772 here either.
+- "Many of the items on our abbreviated prior authorization list ask for **notification only**" (Health
+  Choice Arizona) — worth asking whether 64772 falls in that category rather than full PA.
+- **All non-contracted providers must obtain authorization for any service**, on every Health Choice line.
 
 ### 2.3 BlueCard — out-of-area Blue members
 | | |
@@ -210,8 +245,9 @@ Mapped to the primary payers in `Specialty Claims Pending 2026-S1.xlsx` (1,086 c
 |---|---|---|---|---|
 | **Blue Cross Blue Shield of Arizona (BCBS AZ)** | 95 | 🔴 **Ambiguous — resolve by prefix.** Could be commercial, MA (`M2K`), FEP (`R`), BlueCard or Strategic Hub | Per §2 family | Per §2 family |
 | **Optum Care Medical Network of AZ, UT & WA (LifePrint)** | 65 | Optum delegated | §3 — **and identify the underlying health plan first** | 1-877-370-2845 · `optumproportal.com` |
-| **Health Choice Arizona** | 8 | AZ Blue Medicaid (AHCCCS) | [Clinical guidelines](https://www.azblue.com/medicaid/providers/clinical-guidelines) | Portal · **1-800-322-8670** · fax **1-877-422-8120** |
+| **Health Choice Arizona** | 8 | AZ Blue **Medicaid (AHCCCS)** · prefix `HCIA`/`IAZ` · payer ID **62179** | [Clinical guidelines](https://www.azblue.com/health-choice-az/providers/clinical-guidelines) · AHCCCS AMPM | Portal · **1-800-322-8670** · fax **1-877-422-8120** |
 | **Health Choice Pathway (Health Choice Generations)** | 2 | AZ Blue **D-SNP** | InterQual · UpToDate · **NCDs/LCDs** · NCCN | **1-800-656-8991** · fax **1-877-424-5680** |
+| *(ACA StandardHealth with Health Choice)* | — | AZ Blue **ACA** · prefix `HCIA`/`IAZ` · payer ID **RP105** | [Clinical guidelines](https://www.azblue.com/medicaid/providers/clinical-guidelines) · eviCore (imaging only) | Portal · **1-800-322-8670** · fax **602-864-5308** |
 | **UHC Group Medicare Advantage** | 36 | UHC MA | UHC MA policies + **LCD/LCA** | 🔴 Check for `LIFE1` → Optum, else UHCprovider.com/priorauth |
 | **United HealthCare Dual Complete** | 30 | UHC D-SNP | UHC MA policies + LCD/LCA | Same — check `LIFE1` |
 | **AARP MedicareComplete (SecureHorizons & Oxford)** | 15 | UHC MA | UHC MA policies + LCD/LCA | Same — check `LIFE1` |
@@ -282,6 +318,7 @@ your appeal evidence.**
 | ⚠️ Still needs a call | Who | Priority |
 |---|---|---|
 | Does AZ Blue require PA for 64772, and is there a policy? | **602-864-4320** · `UtilMgmt@azblue.com` | 🔴 Highest |
+| **Confirm the full alpha-prefix list for the Health Choice family** — we use `HCIA`, AZ Blue publishes only `IAZ`. Ask which prefix maps to which line (ACA StandardHealth `RP105` / Health Choice Arizona Medicaid `62179` / Pathway D-SNP), and get Pathway's payer ID. | Health Choice provider services **1-800-322-8670** | ⚠️ Medium — fixes routing at step 3 |
 | Does Optum require PA for 64772 — **on each list, UHC and BCBS**? | **1-877-370-2845** · `lcd_um@optum.com` | 🔴 Highest |
 | Which entity adjudicates a code absent from the eviCore list? | AZ Blue MA **1-800-446-8331** | 🔴 High |
 | Each delegated IPA's own protocol | Each IPA directly | 🔴 High |

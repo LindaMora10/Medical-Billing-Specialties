@@ -24,6 +24,8 @@ Routing by the name on the card produces wrong answers. Route by **prefix and pa
 ## Conventions
 
 - 🔴 blocker or high-risk · ⚠️ unverified, needs a call
+- Prefixes and payer IDs observed by the practice but not published by the payer are marked as such —
+  `HCIA` is one of these. They are used for routing, and flagged for written confirmation.
 - Where a document could not be retrieved, the guide gives the **exact URL** to open rather than an
   inference about its contents.
 - Verbal authorization answers are logged with a reference number, date and representative — §6.
