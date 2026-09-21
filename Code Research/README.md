@@ -17,8 +17,10 @@ The workbook is sourced from the payer documents in `Plan Guides/` and from the 
 `Status` column separates **Published** from **Practice-verified**; `TO CONFIRM` means no published
 source has been located yet, not that the answer is no. Member-identifying data (alpha prefix, payer
 ID, CMS contract, PBP, group number) each gets its own column and is never mixed into a single field.
-Every tab shares the same 24-column layout: **A–H** identify the plan, **I–N** answer the
-authorization question, **O–U** give the governing policy and its criteria, **V–X** record provenance.
+Every tab shares the same 25-column layout: **A–I** identify the plan, **J–O** answer the
+authorization question, **P–V** give the governing policy and its criteria, **W–Y** record provenance.
+There are no banner rows — column B (`Group`) carries the category, so every row is real data and the
+filters work across the whole sheet.
 
 ## What each memo covers
 
