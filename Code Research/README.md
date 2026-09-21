@@ -9,15 +9,18 @@ required" for a given member rather than documenting the code itself.
 |---|---|---|---|
 | `CPT_64772_Billing_Playbook_2026-09-15.md` | 64772 | **Operational — how the billing department bills it.** Op-note requirements, dx, claim construction, modifiers, POS, AZ allowables, denial playbook, go-live checklist | 15 Sep 2026 |
 | `CPT_64772_Payer_Research_2026-09-15.md` | 64772 | **Reference — the underlying research.** Code validation (vs 64633–64636 / 64625) + AZ payer coverage, PA, POS, NCCI, dx, modifiers, with full citations | 15 Sep 2026 |
-| `CPT_64772_Auth_Routing_2026-09-21.xlsx` | 64772 | **Routing — who decides prior auth, and where to go.** Three tabs: `64772 Auth Routing` (the PA answer, the deciding entity, where to check and where to submit), `Plan Identification` (card → routing crosswalk, with prefix / payer ID / contract / PBP / group each in its own column), `64772 Policy & Criteria` (the governing document per payer and what it actually requires) | 21 Sep 2026 |
+| `CPT_64772_Auth_Routing_2026-09-21.xlsx` | 64772 | **Routing — who decides prior auth, and where to go.** One tab per network (`BCBS`, `Optum`, `UnitedHealthcare`, `Medicare`, `Humana`), one row per plan. Each row carries the plan's identifiers (alpha prefix, payer ID, CMS contract, PBP, group number — each in its own column), the authorization answer and referral rule, where to check and where to submit, and the governing document with what it requires | 21 Sep 2026 |
 
 Where a code has both, the **playbook is the working document** and the research memo is what it cites.
 
 The workbook is sourced from the payer documents in `Plan Guides/` and from the research memo. Its
 `Status` column separates **Published** from **Practice-verified**; `TO CONFIRM` means no published
 source has been located yet, not that the answer is no. Member-identifying data (alpha prefix, payer
-ID, CMS contract, PBP, group number) is kept in separate columns on the `Plan Identification` tab and
-is never mixed into a single field.
+ID, CMS contract, PBP, group number) each gets its own column and is never mixed into a single field.
+Every tab shares the same 25-column layout: **A–I** identify the plan, **J–O** answer the
+authorization question, **P–V** give the governing policy and its criteria, **W–Y** record provenance.
+There are no banner rows — column B (`Group`) carries the category, so every row is real data and the
+filters work across the whole sheet.
 
 ## What each memo covers
 
