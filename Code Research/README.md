@@ -2,20 +2,22 @@
 
 Per-code payer research memos. One file per code, named
 `CPT_<code>_Payer_Research_<YYYY-MM-DD>.md`, dated to the day the policies were pulled.
-The folder also holds the payer **routing workbook**, which answers "who decides, and is auth
-required" per plan rather than documenting the code itself.
+The folder also holds the per-code **routing workbook**, which answers "who decides, and is auth
+required" for a given member rather than documenting the code itself.
 
 | File | Code | Question | Date |
 |---|---|---|---|
 | `CPT_64772_Billing_Playbook_2026-09-15.md` | 64772 | **Operational — how the billing department bills it.** Op-note requirements, dx, claim construction, modifiers, POS, AZ allowables, denial playbook, go-live checklist | 15 Sep 2026 |
 | `CPT_64772_Payer_Research_2026-09-15.md` | 64772 | **Reference — the underlying research.** Code validation (vs 64633–64636 / 64625) + AZ payer coverage, PA, POS, NCCI, dx, modifiers, with full citations | 15 Sep 2026 |
-| `AZ_Blue_Prefix_Routing_2026-09-15.xlsx` | 64772 + general | **Routing — which entity decides prior auth.** Tab `64772`: PA answer by payer, prefix / payer ID and delegated vendor across BCBS, Optum, Medicare, UnitedHealthcare and Humana. Tab `Optum & UHC Plans`: the Optum-delegated and UHC plan inventory — plan name, CMS contract, group numbers, plan type, delegation level, referral rule | 21 Sep 2026 |
+| `CPT_64772_Auth_Routing_2026-09-21.xlsx` | 64772 | **Routing — who decides prior auth, and where to go.** Three tabs: `64772 Auth Routing` (the PA answer, the deciding entity, where to check and where to submit), `Plan Identification` (card → routing crosswalk, with prefix / payer ID / contract / PBP / group each in its own column), `64772 Policy & Criteria` (the governing document per payer and what it actually requires) | 21 Sep 2026 |
 
 Where a code has both, the **playbook is the working document** and the research memo is what it cites.
 
 The workbook is sourced from the payer documents in `Plan Guides/` and from the research memo. Its
 `Status` column separates **Published** from **Practice-verified**; `TO CONFIRM` means no published
-source has been located yet, not that the answer is no.
+source has been located yet, not that the answer is no. Member-identifying data (alpha prefix, payer
+ID, CMS contract, PBP, group number) is kept in separate columns on the `Plan Identification` tab and
+is never mixed into a single field.
 
 ## What each memo covers
 
