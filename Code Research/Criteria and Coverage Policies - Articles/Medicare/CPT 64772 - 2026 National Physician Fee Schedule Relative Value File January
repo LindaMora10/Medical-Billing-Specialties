@@ -11,3 +11,4 @@ PRIC IND11: 9
 PHYSICIAN SUPERVISION OF DIAGNOSTIC PROCEDURES: 09
 CALCULATION FLAG: 0
 DIAGNOSTIC IMAGING FAMILY INDICATOR12: 99
+The procedure has to be done in an ASC (POS 24) or hospital outpatient department (POS 22), not in the office (POS 11).
