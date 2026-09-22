@@ -9,7 +9,8 @@ required" for a given member rather than documenting the code itself.
 |---|---|---|---|
 | `CPT_64772_Billing_Playbook_2026-09-15.md` | 64772 | **Operational — how the billing department bills it.** Op-note requirements, dx, claim construction, modifiers, POS, AZ allowables, denial playbook, go-live checklist | 15 Sep 2026 |
 | `CPT_64772_Payer_Research_2026-09-15.md` | 64772 | **Reference — the underlying research.** Code validation (vs 64633–64636 / 64625) + AZ payer coverage, PA, POS, NCCI, dx, modifiers, with full citations | 15 Sep 2026 |
-| `CPT_64772_Auth_Routing_2026-09-21.xlsx` | 64772 | **Routing — who decides prior auth, and where to go.** One tab per network (`BCBS`, `Optum`, `UnitedHealthcare`, `Medicare`, `Humana`), one row per plan. Each row carries the plan's identifiers (alpha prefix, payer ID, CMS contract, PBP, group number — each in its own column), the authorization answer and referral rule, where to check and where to submit, and the governing document with what it requires | 21 Sep 2026 |
+| `CPT_64772_Auth_Routing_2026.xlsx` | 64772 | **Routing — who decides prior auth, and where to go.** One tab per network (`BCBS`, `Optum`, `UnitedHealthcare`, `Medicare`, `Humana`), one row per plan. Each row carries the plan's identifiers (alpha prefix, payer ID, CMS contract, PBP, group number — each in its own column), the authorization answer and referral rule, where to check and where to submit, and the governing document with what it requires | 21 Sep 2026 |
+| `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` | 64772 | **Reconciliation — does the routing workbook match the filed payer articles?** Cross-checks every row of the routing workbook against the 23 documents in `Payer's Prior Authorizations Articles/`, ranked by whether a finding changes an answer a biller would act on | 21 Sep 2026 |
 
 Where a code has both, the **playbook is the working document** and the research memo is what it cites.
 
