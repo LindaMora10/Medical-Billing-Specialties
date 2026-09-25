@@ -3,7 +3,7 @@
 Payer-published prior authorization articles, bulletins and notices — the source documents
 themselves, kept as issued.
 
-Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
+Forty-four documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
 `CPT 64772 Code Research/` records what they do and do not confirm about the 64772 routing workbook.
 
 ## What belongs here
@@ -64,3 +64,20 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 | `AZ Blue/MotivHealth - Northern Arizona Council of Governments/MotivHealth - Northern Arizona Council of Governments - Outline of Coverage.pdf` | MotivHealth — Northern Arizona Council of Governments (self-funded) | AZ | Outline of coverage — $6,000 ind / $12,000 fam copay plan | 2026 |
 | `AZ Blue/UFCW Desert States Health & Welfare Trust/UFCW Desert States Health & Welfare Trust - Schedule of Benefits - Personal Directions Plan A.pdf` | UFCW Desert States H&W Trust (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
 | `AZ Blue/Teamsters Western Region and New Jersey Health Care Fund/Teamsters Western Region and New Jersey Health Care Fund - Legacy Plan Schedule of Benefits - Active.pdf` | Teamsters Western Region & NJ Health Care Fund (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Legacy Plan schedule of benefits — active | Rev. 30 Jul 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross (California) - Anthem Local PPO Precertification-Prior Authorization List Updated August 24, 2026 (effective September 1, 2026).pdf` | Anthem Blue Cross | **CA** | Local PPO PA code list (CA-BC-CM-020366-26-S5461) | Eff. 1 Sep 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Colorado - Colorado Local Precertification-Prior Authorization List Updated 07-10-2026.pdf` | Anthem BCBS | **CO** | Local PA code list | Updated 10 Jul 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Connecticut - Connecticut Precertification-Prior Authorization List.pdf` | Anthem BCBS | **CT** | PA list by category and responsible party (CT-BCBS-CM-020368-26-S5449) | Sep 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Connecticut - Prior authorization guidance and FAQ for State of Connecticut Employer Group and Connecticut Partnership Plans.pdf` | Anthem BCBS | **CT** | State of CT plans — PA via AmeriBen fax form (CT-BCBS-CM-017118-26-S4602) | Jul 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield (IN, KY, MO, OH, WI) - Anthem National Accounts 2026 standard prior authorization requirements.pdf` | Anthem BCBS | **IN/KY/MO/OH/WI** | National Accounts standard PA list (MULTI-BCBS-CM-002316-25-S852) | Feb 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield (IN, KY, MO, OH, WI) - Anthem and CDHP products Precertification-Prior Authorization List — updated January 1, 2026.pdf` | Anthem BCBS | **IN/KY/MO/OH/WI** | Anthem and CDHP products PA list (MULTI-BCBS-CM-004723-26-S1582) | Updated 1 Jan 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Indiana - Indiana's 30 most frequently submitted CPT codes.pdf` | Anthem BCBS | **IN** | Top 30 PA codes and approval rates, 2023–2025 (IN-BCBS-CM-002906-26-S951) | Jan 2026 |
+| `AZ Blue/Anthem/Anthem Utilization Management Services Inc. - 2025 Indiana Utilization Report.pdf` | Anthem UM Services / Carelon | **IN** | 2025 PA statistics — approvals, denials, appeals | 2025 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Maine - Maine Precertification-Prior Authorization List.pdf` | Anthem BCBS | **ME** | PA list by category (ME-BCBS-CM-014614-26-S4013) | Jul 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield New Hampshire - New Hampshire Precertification-Prior Authorization List Updated 7-1-26.pdf` | Anthem BCBS | **NH** | PA code list (NH-BCBS-CM-014463-26-S4011) | Updated 1 Jul 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Nevada - Nevada Local Precertification-Prior Authorization List Updated 07-10-2026.pdf` | Anthem BCBS | **NV** | Local PA code list | Updated 10 Jul 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Virginia - Virginia Local Precertification-Prior Authorization List HMO & EPO Updated September 1, 2026.pdf` | Anthem BCBS / HealthKeepers | **VA** | HMO & EPO PA code list (VA-BCBS-CM-020936-26-S5645) | Updated 1 Sep 2026 |
+| `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Virginia - Virginia Local Precertification-Prior Authorization List Preferred Provider Organization (PPO) Updated September 1, 2026.pdf` | Anthem BCBS / HealthKeepers | **VA** | PPO PA code list (VA-BCBS-CM-020630-26-S5549) | Updated 1 Sep 2026 |
+| `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - Georgia Local Precertification-Prior Authorization List Updated August 1, 2026.pdf` | Anthem BCBS | **GA** | Local PA code list (GA-BCBS-CM-016549-26-S4513) | Updated 1 Aug 2026 |
+| `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - Anthem standard preapproval requirements January 1, 2026.pdf` | Anthem BCBS | **GA** | Standard preapproval requirements (GA-BCBS-CM-011600-26-S3227) | 1 Jan 2026 |
+| `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - Anthem- SHBP UM Medical Policies & Clinical Guidelines precertification code list.pdf` | Anthem BCBS (GA State Health Benefit Plan) | **GA** | SHBP precert code list (GA-BCBS-CM-021166-26-S5741) | Sep 2026 |
+| `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - State Health Benefit Plan precertification list as of January 1, 2026.pdf` | Anthem BCBS (GA State Health Benefit Plan) | **GA** | SHBP precert list by service (GA-BCBS-CM-004080-26-S1382) | As of 1 Jan 2026 |
