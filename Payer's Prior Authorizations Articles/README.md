@@ -3,7 +3,7 @@
 Payer-published prior authorization articles, bulletins and notices — the source documents
 themselves, kept as issued.
 
-Twenty-three articles are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
+Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
 `Code Research/` records what they do and do not confirm about the 64772 routing workbook.
 
 ## What belongs here
@@ -21,38 +21,42 @@ Twenty-three articles are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-0
 ## Conventions
 
 - Keep the payer's own file where possible; do not retype the content.
-- Name files `<Payer>_<Topic>_<YYYY-MM-DD>.<ext>`, dated to the article's **publication or effective
-  date**, not the day it was downloaded.
+- Name files `<Payer network> - <document title>.<ext>`, using the title exactly as printed on the
+  document (including its effective / revised date when the title block carries one). Replace `/` and
+  `:` with `-` so the name is valid on every OS.
 - Record the source link and the date pulled in the table below as articles are added.
 - **Mark the market.** The folder holds non-Arizona books alongside the Arizona ones; an Arizona
   question must not be answered from a Florida or California list.
 
-> Note: the files below are kept under the payer's own names, so most do not yet follow the naming
-> convention above. Where the document carries an internal number or effective date that its filename
-> does not, the table records it.
+> Note: where the document carries an internal number or effective date that its title does not, the
+> table records it.
 
 | File | Payer | Market | Topic | Effective / published |
 |---|---|---|---|---|
-| `az-blue-prior-auth-code-lists.xlsx` | AZ Blue | AZ | PA requirements code lists — Standard, State of AZ Group, Teamsters, Snell & Wilmer, FEP, FEP Blue Focus, Medicare Advantage | Updated 09/01/2026 (Snell & Wilmer tab: 03/01/2024) |
-| `2026-az-blue-tpa-jointly-administered-plans.pdf` | AZ Blue | AZ | Jointly administered plans — TPA, PA, medical policy and PBM by prefix | As of 07/2026 |
-| `OptumPrior Authorization Requirements_ArizonaUHC_2026.pdf` | OptumCare Network of AZ | AZ | PA and referral requirements, UHC Medicare Advantage book (OHNC-1-25-00928_08262026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
-| `OptumPrior Authorization Requirements_ArizonaBCBS_2026.pdf` | OptumCare Network of AZ | AZ | PA requirements, BCBS book (OHNC-1-25-00929_09032026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
-| `Arizona_ Optum Behavioral Health Exchange plans Advanced Notification_Prior Authorization effective January 1, 2026.pdf` | Optum Behavioral Health | AZ | Exchange plans, behavioral health advance notification / PA | Eff. 1 Jan 2026 |
-| `FINAL_Medicare and DSNP Prior Authorization and Notification List - 7-1-2026pdf.pdf` | Humana | National | MA and D-SNP PA and notification list (790807ALL0725-C GHHMXVMEN) | Eff. 1 Jul 2026, rev. 1 Sep 2026 |
-| `FINAL_July 2024 Commercial Prior Authorization and Notification Listpdf.pdf` | Humana | National | Commercial preauthorization and notification list (399806ALL0224-A GCHM8R6EN) — **stale** | Eff. 1 Jul 2024, rev. 10 Dec 2024 |
-| `UnitedHealthcare Medicare Advantage Prior Authorization Requirements - Effective Sept. 1, 2026.pdf` | UnitedHealthcare | National | MA / Peoples Health PA requirements (PCA-4-26-00416-Clinical-QRG_03022026) | Eff. 1 Sep 2026 |
-| `UnitedHealthcare Medicare Advantage Prior Authorization Requirements - Effective August 1, 2026.pdf` | UnitedHealthcare | National | MA PA requirements — prior edition | Eff. 1 Aug 2026 |
-| `UnitedHealthcare Commercial Advance Notification Prior Authorization Requirements - Effective Sept. 1, 2026.pdf` | UnitedHealthcare | National | Commercial advance notification / PA (PCA-1-26-00657-Clinical-QRG_04232026) | Eff. 1 Sep 2026 |
-| `UnitedHealthcare Exchange Plans Advance Notification_Prior Authorization Requirements - Effective Sept. 1, 2026.pdf` | UnitedHealthcare | National | Individual Exchange advance notification / PA | Eff. 1 Sep 2026 |
-| `Prior authorization requirements for UnitedHealthcare Complete Effective Sept. 1, 2026.pdf` | UnitedHealthcare | National | UHC Complete PA requirements | Eff. 1 Sep 2026 |
-| `Prior authorization requirements for Surest health plans - Effective Sept. 1, 2026 - Surest Health Plans.pdf` | Surest (UHC) | National | Surest and Surest Flex PA requirements | Eff. 1 Sep 2026 |
-| `Prior Authorization requirements for AHCCCS Complete Care (ACC) Medicaid effective Sept. 1, 2026 - UnitedHealthcare Community Plan of Arizona.pdf` | UHC Community Plan | AZ | AHCCCS Complete Care Medicaid PA requirements | Eff. 1 Sep 2026 |
-| `Arizona Developmentally Disabled Members Prior Authorization Requirements Effective Sept. 1, 2026 - UnitedHealthcare Community Plan of Arizona.pdf` | UHC Community Plan | AZ | DD / DD-CRS members PA requirements | Eff. 1 Sep 2026 |
-| `Arizona Long Term Care Prior Authorization Requirements Effective Sept. 1, 2026 - UnitedHealthcare Community Plan of Arizona.pdf` | UHC Community Plan | AZ | ALTCS-EPD PA requirements | Eff. 1 Sep 2026 |
-| `SCAN Medicare Advantage Prior Authorization Requirements.pdf` | SCAN Health Plan | MA book | Inpatient, outpatient and Part B medication PA requirements | 2026 |
-| `SCAN Village Health Prior Authorization Requirements.pdf` | SCAN Health Plan | **CA** | VillageHealth (HMO-POS) PA requirements — California plan | 2026 |
-| `Oxford Health Plans Advance Notification_Prior Authorization Requirements - Effective Sept. 1, 2026.pdf` | Oxford (UHC) | **NY/NJ/CT** | Advance notification / PA requirements | Eff. 1 Sep 2026 |
-| `Neighborhood Health Partnership Advance Notification_Prior Authorization Requirements - Effective Sept. 1, 2026.pdf` | NHP (UHC) | **FL** | Advance notification / PA requirements | Eff. 1 Sep 2026 |
-| `UnitedHealthcare Mid-Atlantic Health Plans Prior Authorization Requirements - Effective Sept. 1, 2026.pdf` | UnitedHealthcare | **MD/DC/VA** | Mid-Atlantic PA requirements | Eff. 1 Sep 2026 |
-| `UnitedHealthcare Community Plan Prior Authorization Requirements Florida - Effective Aug. 1, 2026.pdf` | UHC Community Plan | **FL** | Florida Medicaid PA requirements | Eff. 1 Aug 2026 |
-| `UnitedHealthcare West Prior Authorization Requirements - Effective April 1, 2026.pdf` | UnitedHealthcare West | West region | PA requirements | Eff. 1 Apr 2026 |
+| `AZ Blue - AZ Blue Prior Authorization Requirements Code Lists (Updated 09-01-2026).xlsx` | AZ Blue | AZ | PA requirements code lists — Standard, State of AZ Group, Teamsters, Snell & Wilmer, FEP, FEP Blue Focus, Medicare Advantage | Updated 09/01/2026 (Snell & Wilmer tab: 03/01/2024) |
+| `AZ Blue - 2026 AZ Blue and TPA Jointly Administered Plans (as of 07-2026).pdf` | AZ Blue | AZ | Jointly administered plans — TPA, PA, medical policy and PBM by prefix | As of 07/2026 |
+| `OptumCare Network of Arizona - 2026 OptumCare Network of Arizona - UnitedHealthcare Medicare Advantage prior authorization and referral requirements Effective Jan. 1, 2026 (Updated Sept. 1, 2026).pdf` | OptumCare Network of AZ | AZ | PA and referral requirements, UHC Medicare Advantage book (OHNC-1-25-00928_08262026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
+| `OptumCare Network of Arizona - 2026 OptumCare Network of Arizona - Blue Cross Blue Shield prior authorization requirements Effective Jan. 1, 2026 (Updated Sept. 1, 2026).pdf` | OptumCare Network of AZ | AZ | PA requirements, BCBS book (OHNC-1-25-00929_09032026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
+| `Optum Behavioral Health - Prior Authorization Code List UnitedHealthcare Exchange Plans in Arizona Effective Jan. 1, 2026.pdf` | Optum Behavioral Health | AZ | Exchange plans, behavioral health advance notification / PA | Eff. 1 Jan 2026 |
+| `Humana - Medicare Advantage and Dual Eligible Special Needs Plans Prior Authorization and Notification List.pdf` | Humana | National | MA and D-SNP PA and notification list (790807ALL0725-C GHHMXVMEN) | Eff. 1 Jul 2026, rev. 1 Sep 2026 |
+| `Humana - Commercial Preauthorization and Notification List Effective July 1, 2024.pdf` | Humana | National | Commercial preauthorization and notification list (399806ALL0224-A GCHM8R6EN) — **stale** | Eff. 1 Jul 2024, rev. 10 Dec 2024 |
+| `UnitedHealthcare - UnitedHealthcare Medicare Advantage-Peoples Health Plans prior authorization requirements Effective September 1, 2026.pdf` | UnitedHealthcare | National | MA / Peoples Health PA requirements (PCA-4-26-00416-Clinical-QRG_03022026) | Eff. 1 Sep 2026 |
+| `UnitedHealthcare - UnitedHealthcare Medicare Advantage-Peoples Health Plans prior authorization requirements Effective August 1, 2026.pdf` | UnitedHealthcare | National | MA PA requirements — prior edition | Eff. 1 Aug 2026 |
+| `UnitedHealthcare - Prior authorization requirements for UnitedHealthcare commercial plans Effective September 1, 2026.pdf` | UnitedHealthcare | National | Commercial advance notification / PA (PCA-1-26-00657-Clinical-QRG_04232026) | Eff. 1 Sep 2026 |
+| `UnitedHealthcare - Prior authorization requirements for UnitedHealthcare Individual Exchange plans Effective September 1, 2026.pdf` | UnitedHealthcare | National | Individual Exchange advance notification / PA | Eff. 1 Sep 2026 |
+| `UnitedHealthcare - Prior authorization requirements for UnitedHealthcare Complete Effective September 1, 2026.pdf` | UnitedHealthcare | National | UHC Complete PA requirements | Eff. 1 Sep 2026 |
+| `Surest Health Plans - Prior Authorization Requirements for Surest Effective September 1, 2026.pdf` | Surest (UHC) | National | Surest and Surest Flex PA requirements | Eff. 1 Sep 2026 |
+| `UnitedHealthcare Community Plan of Arizona - Prior authorization requirements for AHCCCS Complete Care (ACC) Medicaid effective September 1, 2026.pdf` | UHC Community Plan | AZ | AHCCCS Complete Care Medicaid PA requirements | Eff. 1 Sep 2026 |
+| `UnitedHealthcare Community Plan of Arizona - Prior authorization requirements for Arizona Developmental Disabilities Effective September 1, 2026.pdf` | UHC Community Plan | AZ | DD / DD-CRS members PA requirements | Eff. 1 Sep 2026 |
+| `UnitedHealthcare Community Plan of Arizona - Prior authorization requirements for Arizona Long Term Care Effective September 1, 2026.pdf` | UHC Community Plan | AZ | ALTCS-EPD PA requirements | Eff. 1 Sep 2026 |
+| `SCAN Health Plan - SCAN Medicare Advantage Prior Authorization Requirements Effective January 1, 2024 (Last Revised August 1, 2026).pdf` | SCAN Health Plan | MA book | Inpatient, outpatient and Part B medication PA requirements | 2026 |
+| `SCAN Health Plan - SCAN Village Health Prior Authorization Requirements Effective July 1, 2025 (Last Revised January 1, 2026).pdf` | SCAN Health Plan | **CA** | VillageHealth (HMO-POS) PA requirements — California plan | 2026 |
+| `Oxford Health Plans - Prior Authorization Requirements for Oxford Effective September 1, 2026.pdf` | Oxford (UHC) | **NY/NJ/CT** | Advance notification / PA requirements | Eff. 1 Sep 2026 |
+| `Neighborhood Health Partnership - Prior authorization requirements for Neighborhood Health Partnership Effective September 1, 2026.pdf` | NHP (UHC) | **FL** | Advance notification / PA requirements | Eff. 1 Sep 2026 |
+| `UnitedHealthcare - Prior authorization requirements for UnitedHealthcare Mid-Atlantic Health Plans Effective September 1, 2026.pdf` | UnitedHealthcare | **MD/DC/VA** | Mid-Atlantic PA requirements | Eff. 1 Sep 2026 |
+| `Preferred Care Partners of Florida - Prior authorization requirements for Preferred Care Network and Preferred Care Partners of Florida Effective August 1, 2026.pdf` | Preferred Care Network / Preferred Care Partners of Florida (UHC) | **FL** | PA requirements (PCA-3-26-00416-Clinical-QRG_03022026) | Eff. 1 Aug 2026 |
+| `UnitedHealthcare - Prior authorization requirements for UnitedHealthcare West commercial plans Effective April 1, 2026.pdf` | UnitedHealthcare West | West region | PA requirements | Eff. 1 Apr 2026 |
+| `HealthComp - Pre-Certification List 2020 (Updated 9-25-2020).xlsx` | HealthComp | — | Pre-certification list (not all-inclusive) — **stale** | Updated 25 Sep 2020 |
+| `Northern Arizona Council of Governments - Outline of Coverage.pdf` | Northern Arizona Council of Governments (self-funded) | AZ | Outline of coverage — $6,000 ind / $12,000 fam copay plan | 2026 |
+| `UFCW Desert States Health & Welfare Trust - Schedule of Benefits - Personal Directions Plan A.pdf` | UFCW Desert States H&W Trust (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
+| `Teamsters Western Region and New Jersey Health Care Fund - Legacy Plan Schedule of Benefits - Active.pdf` | Teamsters Western Region & NJ Health Care Fund (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Legacy Plan schedule of benefits — active | Rev. 30 Jul 2026 |
