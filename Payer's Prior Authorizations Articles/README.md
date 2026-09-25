@@ -23,8 +23,8 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 - Keep the payer's own file where possible; do not retype the content.
 - File each document in the subfolder named for its payer network (create one if the payer is new).
   UnitedHealthcare-owned plans (Oxford, Surest, Neighborhood Health Partnership, Preferred Care
-  Partners of Florida) go in `UnitedHealthcare/`; the HealthComp and MotivHealth groups go under `AZ Blue/`;
-  all Optum documents (OptumCare Network of Arizona, Optum Behavioral Health) go in `Optum/`.
+  Partners of Florida) go in `UnitedHealthcare/`; the HealthComp, MotivHealth, Teamsters and UFCW groups go under `AZ Blue/`;
+  all Optum documents (OptumCare Network of Arizona, Optum Behavioral Health) go in `Optum/`, with SCAN Health Plan under `Optum/SCAN Health Plan/`.
 - Name files `<Payer network> - <document title>.<ext>`, using the title exactly as printed on the
   document (including its effective / revised date when the title block carries one). Replace `/` and
   `:` with `-` so the name is valid on every OS.
@@ -53,8 +53,8 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 | `UnitedHealthcare Community Plan of Arizona/UnitedHealthcare Community Plan of Arizona - Prior authorization requirements for AHCCCS Complete Care (ACC) Medicaid effective September 1, 2026.pdf` | UHC Community Plan | AZ | AHCCCS Complete Care Medicaid PA requirements | Eff. 1 Sep 2026 |
 | `UnitedHealthcare Community Plan of Arizona/UnitedHealthcare Community Plan of Arizona - Prior authorization requirements for Arizona Developmental Disabilities Effective September 1, 2026.pdf` | UHC Community Plan | AZ | DD / DD-CRS members PA requirements | Eff. 1 Sep 2026 |
 | `UnitedHealthcare Community Plan of Arizona/UnitedHealthcare Community Plan of Arizona - Prior authorization requirements for Arizona Long Term Care Effective September 1, 2026.pdf` | UHC Community Plan | AZ | ALTCS-EPD PA requirements | Eff. 1 Sep 2026 |
-| `SCAN Health Plan/SCAN Health Plan - SCAN Medicare Advantage Prior Authorization Requirements Effective January 1, 2024 (Last Revised August 1, 2026).pdf` | SCAN Health Plan | MA book | Inpatient, outpatient and Part B medication PA requirements | 2026 |
-| `SCAN Health Plan/SCAN Health Plan - SCAN Village Health Prior Authorization Requirements Effective July 1, 2025 (Last Revised January 1, 2026).pdf` | SCAN Health Plan | **CA** | VillageHealth (HMO-POS) PA requirements — California plan | 2026 |
+| `Optum/SCAN Health Plan/SCAN Health Plan - SCAN Medicare Advantage Prior Authorization Requirements Effective January 1, 2024 (Last Revised August 1, 2026).pdf` | SCAN Health Plan | MA book | Inpatient, outpatient and Part B medication PA requirements | 2026 |
+| `Optum/SCAN Health Plan/SCAN Health Plan - SCAN Village Health Prior Authorization Requirements Effective July 1, 2025 (Last Revised January 1, 2026).pdf` | SCAN Health Plan | **CA** | VillageHealth (HMO-POS) PA requirements — California plan | 2026 |
 | `UnitedHealthcare/Oxford Health Plans - Prior Authorization Requirements for Oxford Effective September 1, 2026.pdf` | Oxford (UHC) | **NY/NJ/CT** | Advance notification / PA requirements | Eff. 1 Sep 2026 |
 | `UnitedHealthcare/Neighborhood Health Partnership - Prior authorization requirements for Neighborhood Health Partnership Effective September 1, 2026.pdf` | NHP (UHC) | **FL** | Advance notification / PA requirements | Eff. 1 Sep 2026 |
 | `UnitedHealthcare/UnitedHealthcare - Prior authorization requirements for UnitedHealthcare Mid-Atlantic Health Plans Effective September 1, 2026.pdf` | UnitedHealthcare | **MD/DC/VA** | Mid-Atlantic PA requirements | Eff. 1 Sep 2026 |
@@ -62,5 +62,5 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 | `UnitedHealthcare/UnitedHealthcare - Prior authorization requirements for UnitedHealthcare West commercial plans Effective April 1, 2026.pdf` | UnitedHealthcare West | West region | PA requirements | Eff. 1 Apr 2026 |
 | `AZ Blue/HealthComp/HealthComp - Pre-Certification List 2020 (Updated 9-25-2020).xlsx` | HealthComp | — | Pre-certification list (not all-inclusive) — **stale** | Updated 25 Sep 2020 |
 | `AZ Blue/MotivHealth - Northern Arizona Council of Governments/MotivHealth - Northern Arizona Council of Governments - Outline of Coverage.pdf` | MotivHealth — Northern Arizona Council of Governments (self-funded) | AZ | Outline of coverage — $6,000 ind / $12,000 fam copay plan | 2026 |
-| `UFCW Desert States Health & Welfare Trust/UFCW Desert States Health & Welfare Trust - Schedule of Benefits - Personal Directions Plan A.pdf` | UFCW Desert States H&W Trust (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
-| `Teamsters Western Region and New Jersey Health Care Fund/Teamsters Western Region and New Jersey Health Care Fund - Legacy Plan Schedule of Benefits - Active.pdf` | Teamsters Western Region & NJ Health Care Fund (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Legacy Plan schedule of benefits — active | Rev. 30 Jul 2026 |
+| `AZ Blue/UFCW Desert States Health | `UFCW Desert States Health & Welfare Trust/ Welfare Trust/UFCW Desert States Health & Welfare Trust - Schedule of Benefits - Personal Directions Plan A.pdf` | UFCW Desert States H&W Trust (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
+| `AZ Blue/Teamsters Western Region and New Jersey Health Care Fund/Teamsters Western Region and New Jersey Health Care Fund - Legacy Plan Schedule of Benefits - Active.pdf` | Teamsters Western Region & NJ Health Care Fund (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Legacy Plan schedule of benefits — active | Rev. 30 Jul 2026 |
