@@ -23,7 +23,8 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 - Keep the payer's own file where possible; do not retype the content.
 - File each document in the subfolder named for its payer network (create one if the payer is new).
   UnitedHealthcare-owned plans (Oxford, Surest, Neighborhood Health Partnership, Preferred Care
-  Partners of Florida) go in `UnitedHealthcare/`; the HealthComp and MotivHealth groups go under `AZ Blue/`.
+  Partners of Florida) go in `UnitedHealthcare/`; the HealthComp and MotivHealth groups go under `AZ Blue/`;
+  all Optum documents (OptumCare Network of Arizona, Optum Behavioral Health) go in `Optum/`.
 - Name files `<Payer network> - <document title>.<ext>`, using the title exactly as printed on the
   document (including its effective / revised date when the title block carries one). Replace `/` and
   `:` with `-` so the name is valid on every OS.
@@ -38,9 +39,9 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 |---|---|---|---|---|
 | `AZ Blue/AZ Blue - AZ Blue Prior Authorization Requirements Code Lists (Updated 09-01-2026).xlsx` | AZ Blue | AZ | PA requirements code lists — Standard, State of AZ Group, Teamsters, Snell & Wilmer, FEP, FEP Blue Focus, Medicare Advantage | Updated 09/01/2026 (Snell & Wilmer tab: 03/01/2024) |
 | `AZ Blue/AZ Blue - 2026 AZ Blue and TPA Jointly Administered Plans (as of 07-2026).pdf` | AZ Blue | AZ | Jointly administered plans — TPA, PA, medical policy and PBM by prefix | As of 07/2026 |
-| `OptumCare Network of Arizona/OptumCare Network of Arizona - 2026 OptumCare Network of Arizona - UnitedHealthcare Medicare Advantage prior authorization and referral requirements Effective Jan. 1, 2026 (Updated Sept. 1, 2026).pdf` | OptumCare Network of AZ | AZ | PA and referral requirements, UHC Medicare Advantage book (OHNC-1-25-00928_08262026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
-| `OptumCare Network of Arizona/OptumCare Network of Arizona - 2026 OptumCare Network of Arizona - Blue Cross Blue Shield prior authorization requirements Effective Jan. 1, 2026 (Updated Sept. 1, 2026).pdf` | OptumCare Network of AZ | AZ | PA requirements, BCBS book (OHNC-1-25-00929_09032026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
-| `Optum Behavioral Health/Optum Behavioral Health - Prior Authorization Code List UnitedHealthcare Exchange Plans in Arizona Effective Jan. 1, 2026.pdf` | Optum Behavioral Health | AZ | Exchange plans, behavioral health advance notification / PA | Eff. 1 Jan 2026 |
+| `Optum/OptumCare Network of Arizona - 2026 OptumCare Network of Arizona - UnitedHealthcare Medicare Advantage prior authorization and referral requirements Effective Jan. 1, 2026 (Updated Sept. 1, 2026).pdf` | OptumCare Network of AZ | AZ | PA and referral requirements, UHC Medicare Advantage book (OHNC-1-25-00928_08262026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
+| `Optum/OptumCare Network of Arizona - 2026 OptumCare Network of Arizona - Blue Cross Blue Shield prior authorization requirements Effective Jan. 1, 2026 (Updated Sept. 1, 2026).pdf` | OptumCare Network of AZ | AZ | PA requirements, BCBS book (OHNC-1-25-00929_09032026) | Eff. 1 Jan 2026, updated 1 Sep 2026 |
+| `Optum/Optum Behavioral Health - Prior Authorization Code List UnitedHealthcare Exchange Plans in Arizona Effective Jan. 1, 2026.pdf` | Optum Behavioral Health | AZ | Exchange plans, behavioral health advance notification / PA | Eff. 1 Jan 2026 |
 | `Humana/Humana - Medicare Advantage and Dual Eligible Special Needs Plans Prior Authorization and Notification List.pdf` | Humana | National | MA and D-SNP PA and notification list (790807ALL0725-C GHHMXVMEN) | Eff. 1 Jul 2026, rev. 1 Sep 2026 |
 | `Humana/Humana - Commercial Preauthorization and Notification List Effective July 1, 2024.pdf` | Humana | National | Commercial preauthorization and notification list (399806ALL0224-A GCHM8R6EN) — **stale** | Eff. 1 Jul 2024, rev. 10 Dec 2024 |
 | `UnitedHealthcare/UnitedHealthcare - UnitedHealthcare Medicare Advantage-Peoples Health Plans prior authorization requirements Effective September 1, 2026.pdf` | UnitedHealthcare | National | MA / Peoples Health PA requirements (PCA-4-26-00416-Clinical-QRG_03022026) | Eff. 1 Sep 2026 |
