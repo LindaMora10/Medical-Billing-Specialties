@@ -4,7 +4,7 @@ Payer-published prior authorization articles, bulletins and notices — the sour
 themselves, kept as issued.
 
 Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
-`Code Research/` records what they do and do not confirm about the 64772 routing workbook.
+`CPT 64772 Code Research/` records what they do and do not confirm about the 64772 routing workbook.
 
 ## What belongs here
 
@@ -16,7 +16,7 @@ Twenty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-
 ## What does not belong here
 
 - Full provider manuals and administrative guides → `Plan Guides/`
-- Per-code research memos, playbooks and auth routing workbooks → `Code Research/`
+- Per-code research memos, playbooks and auth routing workbooks → `CPT 64772 Code Research/`
 
 ## Conventions
 
