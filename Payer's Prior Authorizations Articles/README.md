@@ -3,7 +3,7 @@
 Payer-published prior authorization articles, bulletins and notices — the source documents
 themselves, kept as issued.
 
-Forty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
+Forty-eight documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
 `CPT 64772 Code Research/` records what they do and do not confirm about the 64772 routing workbook.
 
 ## What belongs here
@@ -84,3 +84,4 @@ Forty-seven documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-0
 | `AZ Blue/Health Choice/Health Choice - BCBSAZ Health Choice Prior Authorization Grid Effective 05-01-26 (Revised 03-30-2026).pdf` | AZ Blue Health Choice | AZ | PA grid — AHCCCS Complete Care (ACC) Medicaid | Eff. 1 May 2026, rev. 30 Mar 2026 |
 | `AZ Blue/Health Choice/Health Choice - Health Choice Pathway HMO D-SNP Prior Authorization Grid Effective 5-1-26 (Revised 3-30-26).pdf` | Health Choice Pathway | AZ | PA grid — HMO D-SNP (Medicare Advantage) | Eff. 1 May 2026, rev. 30 Mar 2026 |
 | `AZ Blue/Health Choice/Health Choice - ACA StandardHealth with Health Choice Prior Authorization Grid Effective 1-12-26 (Revised 12-10-25).pdf` | ACA StandardHealth with Health Choice | AZ | PA grid — ACA individual/family HMO | Eff. 12 Jan 2026, rev. 10 Dec 2025 |
+| `AZ Blue/SSA/SSA - Arizona Sheet Metal Trust Funds - Active Plan Schedule of Benefits (Revised 1-1-2026).pdf` | Arizona Sheet Metal Trust Funds (admin. Southwest Service Administrators; BCBSAZ PPO, group ASM001) | AZ | Active plan schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
