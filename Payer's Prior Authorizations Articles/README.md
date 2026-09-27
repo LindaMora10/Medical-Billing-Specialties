@@ -3,7 +3,7 @@
 Payer-published prior authorization articles, bulletins and notices — the source documents
 themselves, kept as issued.
 
-Forty-four documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
+Forty-nine documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09-21.md` in
 `CPT 64772 Code Research/` records what they do and do not confirm about the 64772 routing workbook.
 
 ## What belongs here
@@ -23,7 +23,7 @@ Forty-four documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09
 - Keep the payer's own file where possible; do not retype the content.
 - File each document in the subfolder named for its payer network (create one if the payer is new).
   UnitedHealthcare-owned plans (Oxford, Surest, Neighborhood Health Partnership, Preferred Care
-  Partners of Florida) go in `UnitedHealthcare/`; the HealthComp, MotivHealth, Teamsters and UFCW groups go under `AZ Blue/`;
+  Partners of Florida) go in `UnitedHealthcare/`; the HealthComp and MotivHealth groups go under `AZ Blue/`, and the SSA-administered groups (Teamsters, UFCW) go in `AZ Blue/SSA/`;
   all Optum documents (OptumCare Network of Arizona, Optum Behavioral Health) go in `Optum/`, with SCAN Health Plan under `Optum/SCAN Health Plan/`.
 - Name files `<Payer network> - <document title>.<ext>`, using the title exactly as printed on the
   document (including its effective / revised date when the title block carries one). Replace `/` and
@@ -62,8 +62,8 @@ Forty-four documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09
 | `UnitedHealthcare/UnitedHealthcare - Prior authorization requirements for UnitedHealthcare West commercial plans Effective April 1, 2026.pdf` | UnitedHealthcare West | West region | PA requirements | Eff. 1 Apr 2026 |
 | `AZ Blue/HealthComp/HealthComp - Pre-Certification List 2020 (Updated 9-25-2020).xlsx` | HealthComp | — | Pre-certification list (not all-inclusive) — **stale** | Updated 25 Sep 2020 |
 | `AZ Blue/MotivHealth - Northern Arizona Council of Governments/MotivHealth - Northern Arizona Council of Governments - Outline of Coverage.pdf` | MotivHealth — Northern Arizona Council of Governments (self-funded) | AZ | Outline of coverage — $6,000 ind / $12,000 fam copay plan | 2026 |
-| `AZ Blue/UFCW Desert States Health & Welfare Trust/UFCW Desert States Health & Welfare Trust - Schedule of Benefits - Personal Directions Plan A.pdf` | UFCW Desert States H&W Trust (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
-| `AZ Blue/Teamsters Western Region and New Jersey Health Care Fund/Teamsters Western Region and New Jersey Health Care Fund - Legacy Plan Schedule of Benefits - Active.pdf` | Teamsters Western Region & NJ Health Care Fund (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Legacy Plan schedule of benefits — active | Rev. 30 Jul 2026 |
+| `AZ Blue/SSA/UFCW Desert States Health & Welfare Trust - Schedule of Benefits - Personal Directions Plan A.pdf` | UFCW Desert States H&W Trust (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
+| `AZ Blue/SSA/Teamsters Western Region and New Jersey Health Care Fund - Legacy Plan Schedule of Benefits - Active.pdf` | Teamsters Western Region & NJ Health Care Fund (admin. Southwest Service Administrators; BCBSAZ PPO) | AZ | Legacy Plan schedule of benefits — active | Rev. 30 Jul 2026 |
 | `AZ Blue/Anthem/Anthem Blue Cross (California) - Anthem Local PPO Precertification-Prior Authorization List Updated August 24, 2026 (effective September 1, 2026).pdf` | Anthem Blue Cross | **CA** | Local PPO PA code list (CA-BC-CM-020366-26-S5461) | Eff. 1 Sep 2026 |
 | `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Colorado - Colorado Local Precertification-Prior Authorization List Updated 07-10-2026.pdf` | Anthem BCBS | **CO** | Local PA code list | Updated 10 Jul 2026 |
 | `AZ Blue/Anthem/Anthem Blue Cross and Blue Shield Connecticut - Connecticut Precertification-Prior Authorization List.pdf` | Anthem BCBS | **CT** | PA list by category and responsible party (CT-BCBS-CM-020368-26-S5449) | Sep 2026 |
@@ -81,3 +81,8 @@ Forty-four documents are on file. `CPT_64772_Auth_Routing_Reconciliation_2026-09
 | `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - Anthem standard preapproval requirements January 1, 2026.pdf` | Anthem BCBS | **GA** | Standard preapproval requirements (GA-BCBS-CM-011600-26-S3227) | 1 Jan 2026 |
 | `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - Anthem- SHBP UM Medical Policies & Clinical Guidelines precertification code list.pdf` | Anthem BCBS (GA State Health Benefit Plan) | **GA** | SHBP precert code list (GA-BCBS-CM-021166-26-S5741) | Sep 2026 |
 | `AZ Blue/Anthem/Blue Cross Blue Shield of Georgia (Anthem) - State Health Benefit Plan precertification list as of January 1, 2026.pdf` | Anthem BCBS (GA State Health Benefit Plan) | **GA** | SHBP precert list by service (GA-BCBS-CM-004080-26-S1382) | As of 1 Jan 2026 |
+| `AZ Blue/Health Choice/Health Choice - BCBSAZ Health Choice Prior Authorization Grid Effective 05-01-26 (Revised 03-30-2026).pdf` | AZ Blue Health Choice | AZ | PA grid — AHCCCS Complete Care (ACC) Medicaid | Eff. 1 May 2026, rev. 30 Mar 2026 |
+| `AZ Blue/Health Choice/Health Choice - Health Choice Pathway HMO D-SNP Prior Authorization Grid Effective 5-1-26 (Revised 3-30-26).pdf` | Health Choice Pathway | AZ | PA grid — HMO D-SNP (Medicare Advantage) | Eff. 1 May 2026, rev. 30 Mar 2026 |
+| `AZ Blue/Health Choice/Health Choice - ACA StandardHealth with Health Choice Prior Authorization Grid Effective 1-12-26 (Revised 12-10-25).pdf` | ACA StandardHealth with Health Choice | AZ | PA grid — ACA individual/family HMO | Eff. 12 Jan 2026, rev. 10 Dec 2025 |
+| `AZ Blue/SSA/SSA - Arizona Sheet Metal Trust Funds - Active Plan Schedule of Benefits (Revised 1-1-2026).pdf` | Arizona Sheet Metal Trust Funds (admin. Southwest Service Administrators; BCBSAZ PPO, group ASM001) | AZ | Active plan schedule of benefits, incl. pre-certification | Rev. 1 Jan 2026 |
+| `AZ Blue/EMI Health - Providers - Preauthorization.pdf` | EMI Health (CHS group EMH222) | AZ / national | Preauthorization overview — services and drugs requiring preauth; code lookup at emihealth.com/Providers/ProcedureLookup | Saved 2026 |
